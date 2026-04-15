@@ -15,6 +15,7 @@ $(document).ajaxSend(function(event, xhr, settings) {
                 url: settings.url,
                 accion: 'Retirar Maestro',
                 nombre: nombre,
+                detalles: "",
                 rfc: rfc,
                 plaza: plaza,
                 origen: origen,
@@ -33,7 +34,7 @@ $(document).ajaxSend(function(event, xhr, settings) {
         let nombre = params.get("nombre");
         let rfc = params.get("rfc");
         let plaza = params.get("plaza");
-
+        let detalles = params.get("detalles");
         $.ajax({
             url: "/Sorteo/Servicios/registroHistorial.php",
             method: "POST",
@@ -41,6 +42,7 @@ $(document).ajaxSend(function(event, xhr, settings) {
                 url: settings.url,
                 accion: 'Cambiar Estado Maestro',
                 nombre: nombre,
+                detalles: detalles,
                 rfc: rfc,
                 plaza: plaza,
                 origen: "",

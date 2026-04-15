@@ -93,6 +93,9 @@ $(document).ready(function(){
     });
 
     $("#cuerpoTabla").on("click", ".cambiarEstadoAdmin", function(){
+
+        $("#ventanaDetallesHis").show();
+
         let fila = $(this).closest(".row");
 
         var nombre = fila.find("div:eq(0)").text();
@@ -100,36 +103,58 @@ $(document).ready(function(){
         var plaza = fila.find("div:eq(2)").text();
         var estado = $(this).val();
 
-        $.ajax({
-        type: "POST",
-        url: "/Sorteo/Servicios/cambiar_estado_maestros.php",
-        data:{
-            nombre: nombre,
-            rfc: rfc,
-            plaza: plaza,
-            estado: estado
-        },
-        dataType: "json",
-        success: function(response){
-            let nuevoEstado = response.susses; 
+        $("#aceptarCambio").click(function(){
+            var detalles = $("#detalles_h").val();
 
-            // Reemplazamos el botón según el nuevo estado
-            if(nuevoEstado == '1') {
-                fila.find('.estado').html(
-                    `<button value='1' class="cambiarEstadoAdmin">Participante</button>`
-                );
-            } else {
-                fila.find('.estado').html(
-                    `<button value='0' class="cambiarEstadoAdmin">Retirado</button>`
-                );
+            console.log(detalles);
+            console.log(fila);
+            console.log(nombre);
+            console.log(rfc);
+            console.log(plaza);
+            console.log(estado);
+
+            $.ajax({
+            type: "POST",
+            url: "/Sorteo/Servicios/cambiar_estado_maestros.php",
+            data:{
+                nombre: nombre,
+                detalles: detalles,
+                rfc: rfc,
+                plaza: plaza,
+                estado: estado
+            },
+            dataType: "json",
+            success: function(response){
+                let nuevoEstado = response.susses; 
+
+                // Reemplazamos el botón según el nuevo estado
+                if(nuevoEstado == '1') {
+                    fila.find('.estado').html(
+                        `<button value='1' class="cambiarEstadoAdmin">Participante</button>`
+                    );
+                } else {
+                    fila.find('.estado').html(
+                        `<button value='0' class="cambiarEstadoAdmin">Retirado</button>`
+                    );
+                }
             }
-        }
-        }).fail(function(xhr){
-            console.log("Status:", xhr.status);
-            console.log("Response:", xhr.responseText);
-            alert("Error en petición");
+            }).fail(function(xhr){
+                console.log("Status:", xhr.status);
+                console.log("Response:", xhr.responseText);
+                alert("Error en petición");
+            });
+
+            $("#ventanaDetallesHis").hide();
         });
 
+        $("#cancelarCambio").click(function(){
+            $("#detalles_h").val("");
+            $("#ventanaDetallesHis").hide();
+        });
+
+        $("#cerrarVentana6").click(function(){
+            $("#ventanaDetallesHis").hide();
+        });
     });
 
     $('#borrarMaestro').click(function(){

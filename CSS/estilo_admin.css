@@ -158,6 +158,20 @@ ion-icon{
     height: 150px;
 }
 
+.modal-contenido-DETALLES{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    margin: 15% auto;
+    padding: 0px;
+    width: 350px;
+    height: auto;
+}
+
 .modal-contenido-AgregarUsuario{
     display: flex;
     flex-direction: column;
@@ -184,6 +198,15 @@ ion-icon{
     padding: 0px;
     width: 350px;
     height: 250px;
+}
+
+.centrarInfo {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
 }
 
 .modal-contenido-infoMaestro{
@@ -433,10 +456,20 @@ canvas {
     background-color: #F5F5F3;
 }
 
+#cuerpoTablaHisto .tuplaTabla:hover {
+    cursor: pointer;
+    background-color: #F5F5F3;
+}
+
 .buscador{
     display:flex;
     justify-content: center;
     gap:10px;
+}
+
+#ventanaDetalles label {
+    display: block;
+    text-align: center;
 }
 
 #tipo {

@@ -10,6 +10,7 @@
     $plaza = $_POST['plaza'];
     $origen = $_POST['origen'];
     $tabla_afectada=$_POST['t_a'];
+    $detalles = $_POST['detalles'] ?? '';
 
     $historia = new historial();
 
@@ -17,7 +18,7 @@
         $origen = $historia -> descubrir_origen($nombre, $rfc, $plaza);
     }
 
-    $resultado = $historia -> accion($user, $accion, $url, $nombre, $rfc, $plaza, $origen, $tabla_afectada);
+    $resultado = $historia -> accion($user, $accion, $url, $nombre, $rfc, $plaza, $origen, $tabla_afectada, $detalles);
 
 
 ?>

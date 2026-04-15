@@ -2,12 +2,12 @@
 include 'conexion.php';
 
     class historial{
-        public function accion($user, $accion, $url, $nombre, $rfc, $plaza, $origen, $t_a){
+        public function accion($user, $accion, $url, $nombre, $rfc, $plaza, $origen, $t_a, $detalles){
                         
             $conec = new conexion();
             $db = $conec->conectar();
 
-            $sql = "INSERT INTO historial (usuario, accion, tabla_afectada, url_peticion, nombre, rfc, plaza, origen) VALUES (:usuario, :accion, :t_afectada, :url_p, :nombre, :rfc, :plaza, :origen)";
+            $sql = "INSERT INTO historial (usuario, accion, tabla_afectada, url_peticion, nombre, rfc, plaza, origen, detalles) VALUES (:usuario, :accion, :t_afectada, :url_p, :nombre, :rfc, :plaza, :origen, :detalles)";
             $query = $db->prepare($sql);
             $query->bindParam(':usuario', $user);
             $query->bindParam(':accion', $accion);
@@ -17,7 +17,26 @@ include 'conexion.php';
             $query->bindParam(':rfc', $rfc);
             $query->bindParam(':plaza', $plaza);
             $query->bindParam(':origen', $origen);
+            $query->bindParam(':detalles', $detalles);
             $query->execute();
+        }
+
+        public function mostrar_detalles($id){
+            $conec = new conexion();
+            $db = $conec->conectar();
+
+            $sql = "SELECT nombre, detalles FROM historial WHERE id=:id";
+            $query = $db->prepare($sql);
+            $query->bindParam(':id', $id);
+            $query->execute();
+
+            $result = $query -> fetch(PDO::FETCH_ASSOC);
+
+            if($result){
+                return json_encode(['datos' => $result]);
+            }else{
+                return NULL;
+            }
         }
 
         public function descubrir_origen($nombre, $rfc, $plaza){
