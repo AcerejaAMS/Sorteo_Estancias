@@ -1,0 +1,20 @@
+<?php
+    session_start();
+    include 'maestros.php';
+
+    $columna = $_POST['columna'];
+    $buscar= $_POST['buscar'];
+    $admin = $_SESSION['admin'];
+
+    $maestro = new maestro();
+
+    if($admin == 1){
+        $resultado = $maestro->buscar_maestro_admin($columna, $buscar);
+    }else{
+        $resultado = $maestro->buscar_maestro($columna, $buscar);
+    }
+    
+
+    echo $resultado;
+
+?>

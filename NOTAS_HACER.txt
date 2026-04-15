@@ -1,0 +1,18 @@
+1. Modificar codigo para que sea Sepe, Uset, sorteo,
+    1.1. Modificar definicion de constantes en generar_sorteo.php
+    1.2. modificar crearTablas(); para que se separe en las 3 bd
+    1.3. Revisar que la insercion de profes se mantenga sin errores
+    1.4. Verificar que limpiar duplicados se mantenga sin errores
+    1.5. Verificar que generarprofes 31 y 55 sea coherente con las bases que ocupo
+    1.6. verificar que las tablas se unifiquen en la tabla correspondiente
+    1.7. qe se trunque profes_unificada en vez de profes final y luego se copie a profes sorteo.
+    1.8. Verificar que eliminar ganadores se mantenga igual
+    1.9. Verificar que comisionados se mantenga sin errores
+    1.10. Verificar que procesar sorteo vaya bien paso a paso
+2. Verificar que cuadren los parametros
+
+3. hacer Ajx y Query?
+
+extra:
+    - Comprender que hace check_files.php
+    - Comprender que hace limpiar_BOM.php
