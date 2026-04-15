@@ -11,6 +11,11 @@
     $maestro = new maestro();
     $resultado = $maestro->datos_maestro($nom, $rfc, $plz, $ctr, $fec_ing);
 
-    echo $resultado;
+    if($_SESSION['estado_firma'] == 1){
+        echo json_encode(['success'=>$resultado, 'msg'=>'Firmado']);
+        exit;
+    }
+
+    echo json_encode(['success'=>$resultado, 'msg'=>'No Firmado']);
 
 ?>

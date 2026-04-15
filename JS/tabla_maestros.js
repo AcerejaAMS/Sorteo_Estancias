@@ -73,17 +73,22 @@ $(document).ready(function(){
         },
         dataType: "json",
         success: function(response){
-            
-            $("#infoNombre").text(response.datos.nombre);
-            $("#infoRFC").text(response.datos.rfc);
-            $("#infoPlaza").text(response.datos.plaza);
-            $("#infoCT").text(response.datos.ctr);
-            $("#infoFecIng").text(response.datos.fec_ing);
-            $("#infoMun").text(response.datos.municipio);
-            $("#infoReg").text(response.datos.region);
-            $("#infoOrigen").text(response.datos.origen);
-            $("#infoSindicato").text(response.datos.sindicato);
+            let datosParseados = JSON.parse(response.success);
+
+            $("#infoNombre").text(datosParseados.datos.nombre);
+            $("#infoRFC").text(datosParseados.datos.rfc);
+            $("#infoPlaza").text(datosParseados.datos.plaza);
+            $("#infoCT").text(datosParseados.datos.ctr);
+            $("#infoFecIng").text(datosParseados.datos.fec_ing);
+            $("#infoMun").text(datosParseados.datos.municipio);
+            $("#infoReg").text(datosParseados.datos.region);
+            $("#infoOrigen").text(datosParseados.datos.origen);
+            $("#infoSindicato").text(datosParseados.datos.sindicato);
             $("#ventanaInformacionMaestro").show();
+
+            if(response.msg=="Firmado"){
+                $("#borrarMaestro").prop("disabled", true);
+            }
         }
         }).fail(function(xhr){
             console.log("Status:", xhr.status);

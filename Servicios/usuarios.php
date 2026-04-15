@@ -22,6 +22,7 @@ include 'conexion.php';
                     $_SESSION['login']=true;
                     $_SESSION['sindicato']=$result['sindicato'];
                     $_SESSION['admin']=$result['admin'];
+                    $_SESSION['estado_firma']=$result['estado_firma'];
                     
                     if($_SESSION['admin'] == 1){
                         return json_encode(['success'=>2, 'msg'=>'Login']);

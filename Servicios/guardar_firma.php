@@ -13,6 +13,8 @@
         $guardar_firma = new usuario_firma();
         $resultado = $guardar_firma->subir_firma($user, $data);
 
+        $_SESSION['estado_firma'] = 1;
+
         echo $resultado;
 
     }

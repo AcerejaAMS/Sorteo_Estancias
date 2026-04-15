@@ -6,6 +6,7 @@ $(document).ready(function(){
         url: "/Sorteo/Servicios/verificacion_login.php",
         dataType: "json",
         success: function(dataJson){
+
             if(dataJson.session === null){
                 window.location.href = "index.html";
             }else{
@@ -21,7 +22,6 @@ $(document).ready(function(){
             }
 
             const url = window.location.href;
-            console.log(url);
 
             if (url.includes("admin.html") && window.admin == false){
                 window.location.href = "home.html";

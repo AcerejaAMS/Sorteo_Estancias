@@ -1,5 +1,15 @@
 $(document).ready(function(){
 
+    $("#ventanaInformacionSistemaFirma").show();
+
+    $("#cerrarVentana8").click(function(){
+        $("#ventanaInformacionSistemaFirma").hide();
+    });
+
+    $("#cerrarVentanaInfoSistemaFirma").click(function(){
+        $("#ventanaInformacionSistemaFirma").hide();
+    });
+
     function areaFirma(){
         var canvas = document.getElementById("ejemplo");
         var ctx = canvas.getContext("2d");
