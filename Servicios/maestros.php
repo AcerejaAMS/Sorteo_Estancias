@@ -177,5 +177,27 @@ include 'conexion.php';
             }
 
         }
+
+        public function cambiar_orden(){
+            $conec = new conexion();
+            $db = $conec->conectar();
+
+            $db->prepare("UPDATE profes_sorteo SET OrdenImpresion = NULL WHERE estado = 0")->execute();
+
+            $sql = "
+                UPDATE profes_sorteo p
+                JOIN (
+                    SELECT num_maes, 
+                        ROW_NUMBER() OVER (ORDER BY region ASC, rfc ASC) AS nuevo_orden
+                    FROM profes_sorteo
+                    WHERE estado = 1
+                ) t ON p.num_maes = t.num_maes
+                SET p.OrdenImpresion = t.nuevo_orden
+            ";
+
+            $db->prepare($sql)->execute();
+
+            return json_encode(['success' => 1]);
+        }
     }
 ?>

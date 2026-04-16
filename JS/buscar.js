@@ -26,7 +26,7 @@ $(document).ready(function(){
                     });
                 }else{
                     $.each(response.datos, function(index, item) {
-                        filas += `<div class='row border-bottom py-2 hover-row tuplaTabla'>`;
+                        filas += `<div class="row border-bottom py-2 hover-row tuplaTabla" data-rfc="${item.rfc}">`;
                         filas += `<div class='col-4'>${item.nombre}</div>`;
                         filas += `<div class='col-2'>${item.rfc}</div>`;
                         filas += `<div class='col-3'>${item.plaza}</div>`;

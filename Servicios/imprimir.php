@@ -3,6 +3,7 @@
     include 'formato_pdf.php';
 
     $datos = new datos_impresion();
+    $datos -> cambiar_orden();
     $maestros_imprimir = $datos -> cargar_todos_maestros();
     $firmas_recuperadas = $datos -> recuperar_todas_firmas();
     $regiones = $datos -> nombres_region();
@@ -15,17 +16,20 @@
 
     $region_actual = null;
     $region_count = null;
+    $total_count = 0;
 
     $data = json_decode($maestros_imprimir, true);
     $numero = 1;
 
     foreach($data as $fila){
 
+        $total_count+=1;
+
         if($region_actual != $fila["region"]){
             if ($region_count != 0){
                 $pdf->Ln(3);
                 $pdf->SetFont('Arial','B',11);
-                $pdf->Cell(0,8,'TOTAL DE REGISTROS: '.$region_count,0,1,'R');
+                $pdf->Cell(0,8,'SUBTOTAL DE REGISTROS: '.$region_count,0,1,'R');
                 $pdf->Ln(5);
             }
 
@@ -61,6 +65,8 @@
         }
         if($pdf->GetY() > 230){ 
             $pdf->AddPage();
+            $pdf->SetFont('Arial','B',12);
+            $pdf->Cell(0,10,utf8_decode('REGION '.$region_actual.' - '.$nom_region_actual),0,1,'C');
 
             $x = (210 - 146) / 2;
             $pdf -> SetX($x);
@@ -77,7 +83,7 @@
         $pdf -> SetX($x);
         $y = $pdf->GetY();
 
-        $pdf->MultiCell(12,8,utf8_decode($numero),0,'C');
+        $pdf->MultiCell(12,8,utf8_decode($fila['OrdenImpresion']),0,'C');
         $y1 = $pdf->GetY();
         $pdf->SetXY($x+12,$y);
 
@@ -105,7 +111,8 @@
 
     $pdf->Ln(3);
     $pdf->SetFont('Arial','B',11);
-    $pdf->Cell(0,8,'TOTAL DE REGISTROS: '.$region_count,0,1,'R');
+    $pdf->Cell(0,8,'SUBTOTAL DE REGISTROS: '.$region_count,0,1,'R');
+    $pdf->Cell(0,8,'TOTAL DE REGISTROS: '.$total_count,0,1,'R');
     $pdf->Ln(5);
 
     $pdf->Output();

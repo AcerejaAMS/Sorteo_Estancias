@@ -54,4 +54,17 @@ $(document).ajaxSend(function(event, xhr, settings) {
         });
     }
 
+    if(settings.url === "/Sorteo/Servicios/retirar_maestros.php" || settings.url === "/Sorteo/Servicios/cambiar_estado_maestros.php"){
+
+        
+        $.ajax({
+            url: "/Sorteo/Servicios/cambiar_orden.php",
+            method: "POST",
+            data:{},
+            dataType: 'json',
+            success: function(response) {
+            }
+        });
+    }
+
 });

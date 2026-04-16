@@ -13,7 +13,7 @@ $(document).ready(function(){
         contenedor.replaceChildren(iframe);
     }
 
-    cargarIframe('historial_admin.html');
+    cargarIframe('maestros_admin.html');
 
     $("#botonUsr").click(function(){
         cargarIframe('usuario_admin.html');

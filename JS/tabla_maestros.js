@@ -24,7 +24,7 @@ $(document).ready(function(){
                 });
             }else{
                 $.each(response.datos, function(index, item) {
-                    filas += `<div class='row border-bottom py-2 hover-row tuplaTabla'>`;
+                    filas += `<div class="row border-bottom py-2 hover-row tuplaTabla" data-rfc="${item.rfc}">`;
                     filas += `<div class='col-4 fila'>${item.nombre}</div>`;
                     filas += `<div class='col-2 fila'>${item.rfc}</div>`;
                     filas += `<div class='col-3 fila'>${item.plaza}</div>`;
@@ -111,13 +111,6 @@ $(document).ready(function(){
         $("#aceptarCambio").click(function(){
             var detalles = $("#detalles_h").val();
 
-            console.log(detalles);
-            console.log(fila);
-            console.log(nombre);
-            console.log(rfc);
-            console.log(plaza);
-            console.log(estado);
-
             $.ajax({
             type: "POST",
             url: "/Sorteo/Servicios/cambiar_estado_maestros.php",
@@ -196,9 +189,16 @@ $(document).ready(function(){
         },
         dataType: "json",
         success: function(response){
+
+            let rfc = $("#infoRFC").text().trim();
+
+            $(`[data-rfc='${rfc}']`).fadeOut(300, function(){
+                $(this).remove();
+            });
+
             $("#ventanaInformacionSistema2").show();
             $("#mensajeSistema2").text(response.msg);
-        }
+                }
         }).fail(function(xhr){
             console.log("Status:", xhr.status);
             console.log("Response:", xhr.responseText);
@@ -221,11 +221,9 @@ $(document).ready(function(){
     
     $("#cerrarVentana4").click(function(){
         $("#ventanaInformacionSistema").hide();
-        window.location.reload();
     });
 
     $("#cerrarVentanaInfoSistema2").click(function(){
         $("#ventanaInformacionSistema2").hide();
-        window.location.reload();
     });
 });
