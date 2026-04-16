@@ -1,9 +1,21 @@
 $(document).ready(function(){
 
     function maestros_tabla(){
+
+        let valBoton = null;
+
+        try{
+            valBoton = $("#botonMaestrosVisibles").val();
+        }catch{
+            valBoton = "";
+        }
+
         $.ajax({
         type: "GET",
         url: "/Sorteo/Servicios/tabla_maestros.php",
+        data: {
+            mostrar: valBoton,
+        },
         dataType: "json",
         success: function(response){
             let filas = "";

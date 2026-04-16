@@ -22,12 +22,18 @@ include 'conexion.php';
 
         }
 
-        public function cargar_todos_maestros(){
+        public function cargar_todos_maestros($condicion_vista){
             
             $conec = new conexion();
             $db = $conec->conectar();
 
-            $sql = 'SELECT nombre, rfc, plaza, estado FROM profes_sorteo';
+            if($condicion_vista == 1){
+                $sql = 'SELECT nombre, rfc, plaza, estado FROM profes_sorteo WHERE estado=1';
+            }else if($condicion_vista == 2){
+                $sql = 'SELECT nombre, rfc, plaza, estado FROM profes_sorteo WHERE estado=0';
+            }else{
+                $sql = 'SELECT nombre, rfc, plaza, estado FROM profes_sorteo';
+            }
             $query = $db->prepare($sql);
             $query->execute();
 
@@ -73,11 +79,44 @@ include 'conexion.php';
 
         }
 
+        public function buscar_maestro_admin($column_busqueda, $a_buscar, $condicion_vista){
+            $conec = new conexion();
+            $db = $conec->conectar();
+
+            $accion = null;
+
+            if($condicion_vista == 1){
+                $sql = "SELECT nombre, rfc, plaza, estado FROM profes_sorteo WHERE estado=1 AND $column_busqueda LIKE :buscar";
+                $accion = "busqueda en activos";
+            }else if($condicion_vista == 2){
+                $sql = "SELECT nombre, rfc, plaza, estado FROM profes_sorteo WHERE estado=0 AND $column_busqueda LIKE :buscar";
+                $accion = "busqueda en retirados";
+
+            }else{
+                $sql = "SELECT nombre, rfc, plaza, estado FROM profes_sorteo WHERE $column_busqueda LIKE :buscar";
+                $accion = "busqueda en todos";
+            }
+
+            
+            $query = $db->prepare($sql);
+            $buscar = "%" . trim($a_buscar) . "%";
+            $query->bindParam(':buscar', $buscar);
+            $query->execute();
+
+            $result = $query -> fetchALL(PDO::FETCH_ASSOC);
+
+            if($result){
+                return json_encode(['datos'=>$result, 'admin' => 1, 'accion'=>$accion]);
+            }else{
+                return json_encode(['datos'=>NULL]);
+            }
+        }
+
         public function buscar_maestro($column_busqueda, $a_buscar){
             $conec = new conexion();
             $db = $conec->conectar();
 
-            $sql = "SELECT nombre, rfc, plaza, ctr, fec_ing FROM profes_sorteo WHERE estado=1 AND $column_busqueda LIKE :buscar";
+            $sql = "SELECT nombre, rfc, plaza, ctr, fec_ing FROM profes_sorteo WHERE estado = 1 AND $column_busqueda LIKE :buscar";
             $query = $db->prepare($sql);
             $buscar = "%" . trim($a_buscar) . "%";
             $query->bindParam(':buscar', $buscar);
@@ -87,25 +126,6 @@ include 'conexion.php';
 
             if($result){
                 return json_encode(['datos'=>$result]);
-            }else{
-                return json_encode(['datos'=>NULL]);
-            }
-        }
-
-        public function buscar_maestro_admin($column_busqueda, $a_buscar){
-            $conec = new conexion();
-            $db = $conec->conectar();
-
-            $sql = "SELECT nombre, rfc, plaza, estado FROM profes_sorteo WHERE $column_busqueda LIKE :buscar";
-            $query = $db->prepare($sql);
-            $buscar = "%" . trim($a_buscar) . "%";
-            $query->bindParam(':buscar', $buscar);
-            $query->execute();
-
-            $result = $query -> fetchALL(PDO::FETCH_ASSOC);
-
-            if($result){
-                return json_encode(['datos'=>$result, 'admin' => 1]);
             }else{
                 return json_encode(['datos'=>NULL]);
             }

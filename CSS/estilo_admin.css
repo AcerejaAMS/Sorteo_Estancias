@@ -543,3 +543,41 @@ canvas {
 .dropdown-contenido a:hover {
     background-color: #f1f1f1;
 }
+
+.buscador-superior{
+    display:flex;
+    margin: 0px;
+    justify-content: center;
+    gap:0px;
+    align-items: center;
+}
+
+.buscador-superior .buscador{
+    margin: 10px;
+}
+
+.botonMostrarTodos {
+    align-items: center;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 120px;
+}
+
+.botonMostrarTodos[value='0']{
+    background-color: #641333;
+    color: white;
+    border: #641333 solid 2px;
+    opacity: 0.8;
+}
+
+.botonMostrarTodos[value='1']{
+    background-color: #641333;
+    color: white;
+    border: #641333 solid 2px;
+}
+
+.botonMostrarTodos[value='2']{
+    background-color: white;
+    color: #641333;
+    border: #641333 solid 2px;
+}

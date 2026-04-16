@@ -19,7 +19,7 @@
     </head>
     <body>
         <!-- Cuadro de busqueda -->
-        <div>
+        <div class="buscador-superior">
             <form id="formBuscar" method="post" class="buscador">
                 <div class="lupa">
                     <ion-icon name="search-outline"></ion-icon>
@@ -32,6 +32,10 @@
                 <input type="text" id="buscar" name="buscar" placeholder="Escribe para buscar">
                 <button type="submit" class="botonBuscar">Buscar</button>
             </form>
+            <div>
+                <button id="botonMaestrosVisibles" value="0" class="botonMostrarTodos"><span id="maestrosVisibles"></span></button>
+            </div>
+            
         </div>
 
         <div class="cuadrol">
@@ -52,25 +56,6 @@
         <div class="cuadro_botones_home">
             <button id="imprimirFormatos" class="botonesHome">Imprimir</button>
         </div>
-
-        <!-- Cuadro para ventana emergente para mostrar datos de un maestro -->
-        <!-- <div id="ventanaInformacionMaestro" class="modal">
-            <div class="modal-contenido-infoMaestro">
-                <div class="indicadorVentana">
-                    <label>Información del maestro</label>
-                    <span id="cerrarVentanaInfoMaestro"><ion-icon name="close-outline"></ion-icon></span>
-                </div>
-                <label>Nombre: <span id="infoNombre"></span></label>
-                <label>RFC: <span id="infoRFC"></span></label>
-                <label>Plaza: <span id="infoPlaza"></span></label>
-                <label>CT: <span id="infoCT"></span></label>
-                <label>Fecha Ingreso: <span id="infoFecIng"></span></label>
-                <label>Municipio: <span id="infoMun"></span></label>
-                <label>Region: <span id="infoReg"></span></label>
-                <label>Origen: <span id="infoOrigen"></span></label>
-                <label>Sindicato: <span id="infoSindicato"></span></label>
-            </div>
-        </div> -->
 
         <!-- Cuadro para detalles al agregar -->
         <div id="ventanaDetallesHis" class="modal">

@@ -1,6 +1,38 @@
 $(document).ready(function(){
+    $("#maestrosVisibles").text("Todos");
+
+    
+    $("#botonMaestrosVisibles").click(function(){
+        let valActual = parseInt($(this).val());
+
+        if(valActual === 2){
+            $("#maestrosVisibles").text("Todos");
+            $(this).val(0);
+        }else{
+            if(valActual === 0){
+                $("#maestrosVisibles").text("Participantes");
+            }else{
+                $("#maestrosVisibles").text("Retirados");
+            }
+            $(this).val(valActual + 1);
+        }
+
+        $("#formBuscar").trigger("submit");
+    });
+
     $("#formBuscar").submit(function(e){
         e.preventDefault();
+
+        let valBoton = null;
+
+        try{
+            valBoton = $("#botonMaestrosVisibles").val();
+        }catch{
+            valBoton = "";
+        }
+
+        console.log(valBoton);
+
         $.ajax({
             type: "POST",
             url: "/Sorteo/Servicios/buscar_maestro.php",
@@ -8,6 +40,7 @@ $(document).ready(function(){
             data: {
                 columna: $("#tipo").val(),
                 buscar: $("#buscar").val(),
+                mostrar: valBoton,
             },
             success: function(response){
                 let filas = "";
