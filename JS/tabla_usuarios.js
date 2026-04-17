@@ -15,7 +15,7 @@ $(document).ready(function(){
                 filas += `<div class='col-2 fila'>${item.usuario}</div>`;
                 filas += `<div class='col-2 fila'>${item.rfc}</div>`;
                 filas += `<div class='col-2 fila password-cell'>
-                            <span class="password-text" data-pass="${item.passwrd}">••••••</span>
+                            <span class="password-text" data-pass="${item.passwrd}">••••••••</span>
                             <button class="toggle-pass"><ion-icon name="eye-off-outline" class="ojo"></ion-icon></button>
                         </div>`;
                 filas += `<div class='col-2 fila'>${item.sindicato}</div>`;
@@ -48,11 +48,11 @@ $(document).ready(function(){
         let ojo = $(this).find('ion-icon');
         let realPass = span.data('pass');
 
-        if(span.text() === '••••••'){
+        if(span.text() === '••••••••'){
             span.text(realPass);
             ojo.attr('name', 'eye-outline');
         } else {
-            span.text('••••••');
+            span.text('••••••••');
             ojo.attr('name', 'eye-off-outline');
         }
 

@@ -120,5 +120,24 @@ include 'conexion.php';
                 return json_encode(['datos'=>[]]);
             }
         }
+
+        public function descargar_usuarios(){
+            $conec = new conexion();
+            $db = $conec->conectar();
+
+            $sql = "SELECT id, usuario, rfc, passwrd, sindicato, origen FROM usuarios";
+            $query = $db->prepare($sql);
+            $query->execute();
+
+            $result = $query->fetchAll(PDO::FETCH_ASSOC);
+
+            if($result){
+                foreach ($result as &$usuario) {
+                    $usuario['passwrd'] = $this->decryptPassword($usuario['passwrd']);
+                }
+            }
+
+            return $result;
+        }
     }
 ?>
