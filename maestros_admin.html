@@ -61,12 +61,14 @@
 
         <!-- Cuadro para detalles al agregar -->
         <div id="ventanaDetallesHis" class="modal">
-                <div class="modal-contenido-infoSistema">
+                <div class="modal-contenido-DETALLES">
                     <div class="indicadorVentana">
-                        <label>Información del sistema</label>
+                        <label>Detalles</label>
                         <span id="cerrarVentana6"><ion-icon name="close-outline"></ion-icon></span>
                     </div>
-                    <input type="text" id="detalles_h" placeholder="Escribe detalles para el cambio">
+                    <div class = "contenedorDetalles">
+                        <textarea type="text" class="detallesCambio" id="detalles_h" placeholder="Escribe detalles para el cambio de estado" maxlength="250"></textarea>
+                    </div>
                     <div class="contenedorBotonesFirma">
                         <button class="botonVentanaConfirmacion" id="aceptarCambio">Aceptar</button>
                         <button class="botonVentanaConfirmacion" id="cancelarCambio">Cancelar</button>

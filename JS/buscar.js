@@ -31,8 +31,6 @@ $(document).ready(function(){
             valBoton = "";
         }
 
-        console.log(valBoton);
-
         $.ajax({
             type: "POST",
             url: "/Sorteo/Servicios/buscar_maestro.php",
