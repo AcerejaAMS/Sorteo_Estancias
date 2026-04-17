@@ -4,7 +4,7 @@
 
     $sindicato = $_SESSION['sindicato'];
     $admin = $_SESSION['admin'];
-    $mostrar = $_GET['mostrar'];
+    $mostrar = $_GET['mostrar'] ?? "";
 
     $maestros = new maestro();
 

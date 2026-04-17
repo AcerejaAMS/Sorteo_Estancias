@@ -2,45 +2,79 @@
 include 'conexion.php';
 
     class usuario{
+        private $CLAVE = "USET_SEPE_SORTEO2026_Nomina_Educativa";
+
+        public function decryptPassword($data){
+
+            $decoded = base64_decode($data);
+
+            if($decoded === false || strlen($decoded) < 17){
+                return false;
+            }
+
+            $iv = substr($decoded, 0, 16);
+            $encrypted = substr($decoded, 16);
+
+            return openssl_decrypt(
+                $encrypted,
+                "AES-256-CBC",
+                $this->CLAVE,
+                OPENSSL_RAW_DATA,
+                $iv
+            );
+        }
+
         public function login($usuario, $password){
-            
+
             $conec = new conexion();
             $db = $conec->conectar();
 
-            $sql = 'SELECT * FROM usuarios WHERE usuario = :usuario';
+            $sql = "SELECT * FROM usuarios WHERE usuario = :usuario";
             $query = $db->prepare($sql);
-            $query->bindParam(':usuario', $usuario);
-            $query->execute();
+            $query->execute([':usuario' => $usuario]);
 
-            $result = $query -> fetch(PDO::FETCH_ASSOC);
+            $user = $query->fetch(PDO::FETCH_ASSOC);
 
-                //$hash = password_hash($_POST['passwrd'], PASSWORD_DEFAULT, ['cost' => 10]);
-            if($result){
-                if($password === $result['passwrd']){
-                    $_SESSION['usuario'] = $result['usuario'];
-                    $_SESSION['id'] = $result['id'];
-                    $_SESSION['login']=true;
-                    $_SESSION['sindicato']=$result['sindicato'];
-                    $_SESSION['admin']=$result['admin'];
-                    $_SESSION['estado_firma']=$result['estado_firma'];
-                    
-                    if($_SESSION['admin'] == 1){
-                        return json_encode(['success'=>2, 'msg'=>'Login']);
-                    }
-
-                    return json_encode(['success'=>1, 'msg'=>'Login']);
-                }else{
-                    return json_encode(['success'=>0, 'msg'=>'Contraseña incorrecta']);
-                }
-            }else{
+            if(!$user){
                 return json_encode(['success'=>0, 'msg'=>'Usuario no encontrado']);
+            }
+
+            $passwordDescifrada = $this->decryptPassword($user['passwrd']);
+
+            if($passwordDescifrada === false){
+                return json_encode([
+                    'success'=>0,
+                    'msg'=>'Error al desencriptar contraseña'
+                ]);
+            }
+
+            if ($password === $passwordDescifrada) {
+
+                $_SESSION['usuario'] = $user['usuario'];
+                $_SESSION['id'] = $user['id'];
+                $_SESSION['login'] = true;
+                $_SESSION['sindicato'] = $user['sindicato'];
+                $_SESSION['admin'] = $user['admin'];
+                $_SESSION['estado_firma'] = $user['estado_firma'];
+
+                if($user['admin'] == 1){
+                    return json_encode(['success'=>2, 'msg'=>'Login']);
+                }
+
+                return json_encode(['success'=>1, 'msg'=>'Login']);
+
+            } else {
+                return json_encode(['success'=>0, 'msg'=>'Contraseña incorrecta']);
             }
         }
 
         public function nuevo_usuario($rfc, $nombre, $passwrd, $origen, $sindicato){
+            $iv = random_bytes(16);
+
             $conec = new conexion();
             $db = $conec->conectar();
 
+            $hash = openssl_encrypt($passwrd, "AES-256-CBC", $this->CLAVE, OPENSSL_RAW_DATA, $iv);
             
             $sql = "INSERT INTO usuarios (rfc, usuario, origen, sindicato, passwrd)
                     VALUES (:rfc, :usuario, :origen, :sindicato, :passwrd)";
@@ -49,7 +83,7 @@ include 'conexion.php';
             $query->bindParam(':usuario', $nombre);
             $query->bindParam(':origen', $origen);
             $query->bindParam(':sindicato', $sindicato);
-            $query->bindParam(':passwrd', $passwrd);
+            $query->bindParam(':passwrd', $hash);
 
             $query->execute();
 
@@ -66,6 +100,8 @@ include 'conexion.php';
 
         public function ver_usuarios(){
 
+            $iv = random_bytes(16);
+
             $conec = new conexion();
             $db = $conec->conectar();
 
@@ -76,6 +112,9 @@ include 'conexion.php';
             $result = $query -> fetchALL(PDO::FETCH_ASSOC);
 
             if($result){
+                foreach ($result as &$usuario) {
+                    $usuario['passwrd'] = $this->decryptPassword($usuario['passwrd']);
+                }
                 return json_encode(['datos'=>$result]);
             }else{
                 return json_encode(['datos'=>[]]);

@@ -98,6 +98,20 @@ ion-icon{
     color: red;
 }
 
+.ojo{
+    position: relative;
+    font-size: 24px;
+    top: 2px;
+    color: #606058;
+}
+
+.ojo:hover{
+    position: relative;
+    font-size: 24px;
+    top: 2px;
+    color: #641333;
+}
+
 .barra form button{
     background-color: #641333;
     color:white;
@@ -580,4 +594,26 @@ canvas {
     background-color: white;
     color: #641333;
     border: #641333 solid 2px;
+}
+
+.password-cell {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    width: 100%;
+
+}
+
+.password-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1;
+}
+
+.toggle-pass {
+    border: none;
+    background-color: transparent;
+
 }

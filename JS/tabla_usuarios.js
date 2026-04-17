@@ -14,7 +14,10 @@ $(document).ready(function(){
                 filas += `<div class='col-1 fila'>${item.id}</div>`;
                 filas += `<div class='col-2 fila'>${item.usuario}</div>`;
                 filas += `<div class='col-2 fila'>${item.rfc}</div>`;
-                filas += `<div class='col-2 fila'>${item.passwrd}</div>`;
+                filas += `<div class='col-2 fila password-cell'>
+                            <span class="password-text" data-pass="${item.passwrd}">••••••</span>
+                            <button class="toggle-pass"><ion-icon name="eye-off-outline" class="ojo"></ion-icon></button>
+                        </div>`;
                 filas += `<div class='col-2 fila'>${item.sindicato}</div>`;
                 filas += `<div class='col-2 fila'>${item.origen}</div>`; // Luego ver si se pude poner la imagen imagen y cuando firmo
                 if(item.estado_firma == 1){
@@ -22,7 +25,7 @@ $(document).ready(function(){
                 }else{
                     filas += `<div class='col-1 fila'><ion-icon name="close-circle" class="estado-no"></ion-icon></div>`;
                 }
-                
+
                 filas +=`</div>`;
 
             });
@@ -38,6 +41,22 @@ $(document).ready(function(){
     }
     
     usuarios_tabla();
+
+    $("#cuerpoTablaUsers").on('click', '.toggle-pass', function() {
+    
+        let span = $(this).siblings('.password-text');
+        let ojo = $(this).find('ion-icon');
+        let realPass = span.data('pass');
+
+        if(span.text() === '••••••'){
+            span.text(realPass);
+            ojo.attr('name', 'eye-outline');
+        } else {
+            span.text('••••••');
+            ojo.attr('name', 'eye-off-outline');
+        }
+
+    });
 
     $("#cuerpoTablaUsers").on("dblclick", ".tuplaTabla", function(){
         

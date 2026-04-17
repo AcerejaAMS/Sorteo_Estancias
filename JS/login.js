@@ -15,7 +15,6 @@ $("#formLogin").submit(function(e){
             }if (dataJson.success == 2) {
                 window.location.href = "admin.html";
             }else{
-                console.log(dataJson);
                 $("#alertIngreso").show()
                 $("#errorIngreso").show().text(dataJson.msg);
             }
