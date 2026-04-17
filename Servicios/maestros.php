@@ -46,6 +46,24 @@ include 'conexion.php';
             }
         }
 
+        public function descargar_maestros(){
+            
+            $conec = new conexion();
+            $db = $conec->conectar();
+
+            $sql = 'SELECT nombre, rfc, plaza, ctr, fec_ing, origen, sindicato, region FROM profes_sorteo WHERE estado=0 ORDER BY region ASC,rfc ASC';
+            $query = $db->prepare($sql);
+            $query->execute();
+
+            $result = $query -> fetchALL(PDO::FETCH_ASSOC);
+
+            if($result){
+                return $result;
+            }else{
+                return [];
+            }
+        }
+
         public function datos_maestro($nom, $rfc, $plz, $ctr, $fec_ing){
             
             $conec = new conexion();
