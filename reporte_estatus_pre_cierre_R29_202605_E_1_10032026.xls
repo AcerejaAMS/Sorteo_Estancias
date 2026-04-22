@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>gunix</Author>
+  <LastAuthor>gunix</LastAuthor>
+  <LastPrinted>2008-08-13T16:06:43Z</LastPrinted>
+  <Created>2008-08-13T16:05:12Z</Created>
+  <LastSaved>2008-08-13T16:07:00Z</LastSaved>
+  <Company>EMPATIC</Company>
+  <Version>11.9999</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13035</WindowHeight>
+  <WindowWidth>15195</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>90</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s23">
+    <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+<Worksheet ss:Name="Hoja 1">
+ <Table ss:ExpandedColumnCount="22" ss:ExpandedRowCount="1048576" x:FullColumns="1" x:FullRows="1" ss:DefaultColumnWidth="60">
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Column ss:StyleID="s23" ss:Width="106.5"/>
+<Row>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">CLAVE UR</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">NUM COMPROBANTE</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">NOMBRE</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">PRIMER APELLIDO</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">SEGUNDO APELLIDO</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">CURP</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">RFC</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">NSS</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">CLAVE PLAZA</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">CCT</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">FECHA PAGO</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">FECHA INICIO</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">FECHA TERMINO</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">IMPORTE PERCEPCIONES</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">IMPORTE DEDUCCIONES</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">IMPORTE NETO</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">ESTATUS</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">SUBESTATUS</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">FORMA DE PAGO</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">BANCO</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">CLABE BANCO</Data></Cell>
+ <Cell ss:StyleID="s25"><Data ss:Type="String">VALIDADA</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999835</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">COSME</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">AMADOR</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">BAUTISTA</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">AABC610927HTLMTS06</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">AABC610927RB8</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80846147553</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">072904T2580200.0291001</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29FUA1010Z</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">20250.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">20250.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999832</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">NORMA EDITH</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">ARMAS</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">FLORES</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">AAFN670430MTLRLR06</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">AAFN670430335</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80856757150</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079437E068700.0291001</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29FUA0013P</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/01/2026</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/01/2026</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999798</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">MARIA BLANCA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">ACOLTZI</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">TEOMITZI</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">AOTB691130MPLCML01</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">AOTB691130JX6</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80916903620</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079421E012100.0000014</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DJN0094Q</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999813</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">JOSE MANUEL</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">CHAVEZ</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">MARTINEZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">CAMM630207HTLHRN06</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">CAMM630207HF9</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80046319788</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">071251E028100.0089727</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DPR0388T</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/01/2026</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/01/2026</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">19500.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">19500.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999788</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">ELADIO</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">CASTRILLO</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">VASQUEZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">CAVE660218HTLSSL00</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">CAVE6602183H6</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80856627379</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079413E036319.0290160</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DES0010B</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/01/2026</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/01/2026</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999819</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">GREGORIO</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">CORTES</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">MENA</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">COMG651117HTLRNR04</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">COMG651117186</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80886537697</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">074829E046332.0290017</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DST0025W</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/01/2026</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/01/2026</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999812</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">J. CARMEN</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">CORONA</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">PEREZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">COPC660422HTLRRR01</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">COPJ660422LEA</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">071251E028100.0077627</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DPR0330T</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999794</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">MARIBEL</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">CUANDO</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">MACUIL</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">CUMM680309MTLNCR04</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">CUMM680309PS0</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80946843341</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">072151E018100.0001892</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DJN0040M</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/01/2026</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/01/2026</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999785</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">JAQUELINA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">DELGADO</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">CORTES</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">DECJ690226MTLLRQ04</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">DECJ690226NX0</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80946926963</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079413E036502.0290108</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DES0004R</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999834</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">ANA MARIA DEL SOCORRO</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">DURAN</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">CORDOVA</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">DUCA620823MTLRRN09</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">DUCA620823FZ4</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80006210621</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079437E068700.0291255</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29FUA0035A</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">21000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">21000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999786</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">MA. ISABEL</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">FLORES</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">MEJIA</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">FOMI641031MTLLJS14</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">FOMI641031SUA</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80936440371</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079413E036319.0290297</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DES0007O</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999789</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">ARACELI</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">FLORES</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">PEREZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">FOPA691122MTLLRR04</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">FOPA691122IH7</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80916973979</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">071354E036322.0002774</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DES0012Z</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">01/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">15/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999803</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">OLIVIA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">GARCIA</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">PEREZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">GAPO691004MTLRRL05</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">GAPO691004JN6</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80936977380</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">073801E790515.0290002</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DLT0001T</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">444174.59</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">444174.59</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">RECHAZADA</Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String">LA PERSONA YA CUENTA CON UN REGISTRO PREVIO DE UN CONCEPTO ÚNICO SOLICITADO PARA PAGO</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999791</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">ANDRES</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">GARCIA</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">SANCHEZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">GASA651130HTLRNN03</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">GASA651130477</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80886542796</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">071354E036314.0001452</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DES0015X</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999811</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">ARNULFO</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">GUZMAN</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">MENESES</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">GUMA620815HTLZNR02</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">GUMA6208151BA</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80886263211</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079412E028100.0290184</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DPR0318Y</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/01/2026</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/01/2026</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999802</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">MIRSA CATALINA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">GUEVARA</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">MENDEZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">GUMM650430MMCVNR02</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">GUMM650430J19</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80906556719</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079421E018100.0291318</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DJN0298K</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/01/2026</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/01/2026</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999801</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">SUSANA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">HERNANDEZ</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">PEREZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">HEPS660315MTLRRS04</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">HEPS6603151E3</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80936653361</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079421E018100.0290008</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DJN0254N</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999827</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">SONIA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">HERNANDEZ</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">ZAMORA</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">HEZS650426MTLRMN09</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">HEZS650426374</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80936585845</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">072912E028100.0292725</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29EPR0057B</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/01/2026</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/01/2026</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999818</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">JOSE LUIS</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">ITURBIDE</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">SARMIENTO</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">IUSL650201HDFTRS04</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">IUSL650201B41</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80936590936</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">072907S0180700.0200054</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DST0013R</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/01/2026</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/01/2026</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999833</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">MARIA DE LOS ANGELES</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">LEMUS</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">JUAREZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">LEJA660429MDFMRN05</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">LEJA660429H65</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80936673260</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">072904A0380300.0100017</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29FUA0019J</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999793</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">ROSARIO</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">LOPEZ</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">PORTILLO</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">LOPR630415MTLPRS08</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">LOPR630415425</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80926378615</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079413E036325.0290001</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DES0032N</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/01/2026</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/01/2026</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999831</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">ANASTACIA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">LUNA</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">SANTES</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">LUSA630427MPLNNN19</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">LUSA630427A5A</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80926386113</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079437E028100.0290031</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29FUA0011R</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/01/2026</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/01/2026</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999828</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">ROBERTA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">MATEOS</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">FARFAN</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">MAFR620321MTLTRB05</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">MAFR620321B39</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80016201586</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">071251E028100.0076899</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29EPR0100Z</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">22500.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">22500.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999808</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">JAVIER AURELIO</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">MARTINEZ</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">LUNA</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">MALJ620506HTLRNV04</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">MALJ620506UH0</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80996203206</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079412E028100.0000625</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DPR0267H</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">25500.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">25500.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999829</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">ANGELINA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">MARQUEZ</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">TECPA</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">MATA661125MTLRCN05</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">MATA661125M5A</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80926604622</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">072912E028100.0290123</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29EPR0120N</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999826</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">MA. GUADALUPE</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">MENESES</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">JUAREZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">MEJG690123MTLNRD05</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">MEJM690123RM1</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80946970433</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">071251E028100.0076055</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29EJN0024U</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999800</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">AMIRA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">MENESES</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">SANTACRUZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">MESA660522MTLNNM10</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">MESA660522QD3</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80926613953</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079421E012100.0291097</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DJN0197M</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/01/2026</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/01/2026</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999809</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">MARIA GUADALUPE</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">MENESES</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">SANCHEZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">MESG680506MTLNND07</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">MESG680506FH4</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80926898703</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079412E028100.0290182</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DPR0269F</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999806</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">JUANA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">MEDEL</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">VENTURA</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">MEVJ640619MPLDNN06</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">MEVJ640619HB0</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80966428403</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">071251E028100.0068755</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DPR0087X</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999821</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">MARIA DEL CARMEN CLAUDIA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">MORALES</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">MORALES</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">MOMC580707MTLRRR05</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">MOMC580707DW0</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80055805602</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">072901T2680100.0291001</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DST0027U</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">20250.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">20250.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999814</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">JOSE ERASMO</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">MORALES</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">PLUMA</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">MOPE591125HTLRLR08</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">MOPE591125LN6</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80975919376</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">074829E044100.0291021</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DST0004J</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/01/2026</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/01/2026</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">25500.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">25500.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999817</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">MARIA DEL SOCORRO</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">MOZON</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">PALMA</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">MOPS690513MTLZLC03</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">MOPS690513U88</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80916974027</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">072907A0180500.0100007</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DST0011T</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999815</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">OSVELIA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">MUÑOZ</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">MUÑOZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">MUMO670826MTLXXS08</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">MUMO670826MU4</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80916712591</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">074829E046305.0291464</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DST0004J</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999787</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">MANOLO</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">MUÑOZ</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">REYES</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">MURM630518HTLXYN08</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">MURM630518BE5</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80846344168</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">071354E036322.0002299</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DES0007O</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999795</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">SILVIA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">NAVA</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">SALADO</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">NASS670111MTLVLL11</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">NASS6701114U5</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80866761390</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079421E018100.0000246</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DJN0071F</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/01/2026</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/01/2026</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999824</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">MANUEL</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">PAUL</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">RAMIREZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">PARM640229HTLLMN01</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">PARM640229A30</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80916444542</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">071104LF3411700.0291102</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DUP0001O</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">01/01/2026</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">15/01/2026</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">505374.91</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">12319.02</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">493055.89</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999830</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">ISMAEL</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">PEREZ</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">SANTACRUZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">PESI650131HTLRNS00</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">PESI650131610</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80886531682</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079413E036319.0290142</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29FIS0004L</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">18000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">18000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999825</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">JAIME</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">PEÑA</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">SANCHEZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">PESJ510319HMNXNM02</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">PESJ510319C46</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80915100962</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">071104E921700.0291004</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DUP0001O</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">1030715.64</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">345264.31</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">685451.33</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">RECHAZADA</Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String">LA PERSONA YA CUENTA CON UN REGISTRO PREVIO DE UN CONCEPTO ÚNICO SOLICITADO PARA PAGO</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999816</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">JOSE ENRIQUE</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">QUECHOL</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">JIMENEZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">QUJE600312HTLCMN09</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">QUJE600312BW9</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80906058625</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">074829E046328.0290019</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DST0004J</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/01/2026</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/01/2026</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999804</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">OLIVEROS</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">RAMIREZ</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">DIAZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">RADO670923HTLMZL11</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">RADO670923KU3</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80906769247</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079419JS0700200.0290001</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DNL0002H</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">355270.08</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">355270.08</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999784</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">JOSE CATALINO</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">RAMIREZ</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">ROMERO</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">RARC551125HTLMMT05</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">RARC5511255B1</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80035511171</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">072913A0380300.0100009</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29ADG0005P</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">20250.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">20250.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999822</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">LUZ MARIA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">RODRIGUEZ</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">NARVAEZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">RONL680225MHGDRZ07</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">RONL680225LI0</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80936865692</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">072907T2680100.0291026</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DST0036B</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/01/2026</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/01/2026</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999799</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">ESTEBAN</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">SUAREZ</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">LEON</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">SULE671127HTLRNS03</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">SULE671127PS2</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80916716659</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079421E016506.0291004</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DJN0172D</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999823</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">MARTHA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">SUAREZ</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">SUAREZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">SUSM690729MTLRRR00</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">SUSM690729KJ6</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80886958307</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079479E278130.0291228</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DTV0069G</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999796</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">LETICIA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">TELOXA</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">LOPEZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">TELL650629MTLLPT04</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">TELL650629EW4</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80916595236</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">072911E018100.0290176</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DJN0075B</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/01/2026</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/01/2026</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999810</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">ANGELA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">TECPA</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">MARQUEZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">TEMA630104MTLCRN07</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">TEMA6301046I2</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80846344382</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">071251E028100.0026709</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DPR0304V</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/01/2026</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/01/2026</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999792</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">MA. TERESA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">TORRES</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">ACOLTZI</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">TOAT650930MTLRCR11</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">TOAT6509303H3</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80886542804</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079413E036319.0290189</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DES0015X</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999820</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">MARIA DE LA LUZ</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">TRUJILLO</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">GONZALEZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">TUGL690521MPLRNZ03</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">TUGL690521NWA</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80876937105</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">072907A0180300.0291027</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DST0026V</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999797</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">MARIA DEL CARMEN</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">TUXPAN</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">XOCHICALE</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">TUXC630716MTLXCR01</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">TUXC630716SH3</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80966303267</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079421E018100.0290121</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DJN0087G</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999807</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">RUBICELA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">VALENCIA</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">RAMIREZ</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">VARR681030MTLLMB08</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">VARR681030958</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80936895335</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079412E028100.0000721</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DPR0111G</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999790</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">JULIA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">XANCAL</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">MASTRANZO</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">XAMJ480216MTLNSL09</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">XAMJ4802167S7</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80914848660</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079413E036307.0000277</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DES0014Y</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">0.0</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">30000.0</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="String">R29</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">999805</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="String">MARTHA</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">ZEMPOALTECA</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="String">MORENO</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="String">ZEMM611120MTLMRR04</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String">ZEMM611120BN3</Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String">80886106287</Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="String">079419JS0700200.0290003</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">29DNL0002H</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String">13/03/2026</Data></Cell>
+<Cell ss:Index="12"><Data ss:Type="String">16/12/2025</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="String">31/12/2025</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="Number">369526.5</Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="Number">4519.65</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="Number">365006.85</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">VALIDACIÓN CORRECTA</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">Cheque</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">SI</Data></Cell>
+</Row>
+</Table>
+ <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+  <PageSetup>
+   <Header x:Margin="0"/>
+   <Footer x:Margin="0"/>
+   <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+    x:Right="0.78740157499999996" x:Top="0.984251969"/>
+  </PageSetup>
+  <Print>
+   <ValidPrinterInfo/>
+   <PaperSizeIndex>9</PaperSizeIndex>
+   <HorizontalResolution>600</HorizontalResolution>
+   <VerticalResolution>600</VerticalResolution>
+  </Print>
+  <Selected/>
+  <FreezePanes/>
+  <FrozenNoSplit/>
+  <SplitHorizontal>1</SplitHorizontal>
+  <TopRowBottomPane>1</TopRowBottomPane>
+  <ActivePane>2</ActivePane>
+  <Panes>
+   <Pane>
+    <Number>3</Number>
+   </Pane>
+   <Pane>
+    <Number>2</Number>
+    <ActiveRow>1</ActiveRow>
+   </Pane>
+  </Panes>
+  <ProtectObjects>False</ProtectObjects>
+  <ProtectScenarios>False</ProtectScenarios>
+ </WorksheetOptions>
+</Worksheet>
+</Workbook>
