@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/estilo_home.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7/dist/ionicons/ionicons.js"></script>
+        <title>home</title>
+        <script src="JS/verificacion_login.js" defer></script>
+        <script src="JS/logout.js" defer></script>
+        <script src="JS/ventanas.js"></script>
+        <script src="JS/tabla_maestros.js"></script>
+        <script src="JS/historial.js"></script>
+        <script src="JS/buscar.js"></script>
+        <script src="JS/imprimir.js"></script>
+
+    </head>
+    <body>
+        <div class="barra">
+            <div class="informacionSesion">
+                <label>Bienvenido <span id="nombreUsuario"></span></label>
+                <label>Sindicato: <span id="Sindicato"></span></label>
+            </div>
+            <p>Listado Maestros</p>
+            <form id="formLogout" class="botonCerrarSesion" method="post">
+                <button type="submit"><ion-icon name="exit-outline"></ion-icon> Cerrar sesión</button>
+            </form>
+        </div>
+
+        <!-- Aviso Firma -->
+        <div id="ventanaInformacionSistemaFirma" class="modal">
+            <div class="modal-contenido-infoSistema">
+                <div class="indicadorVentana">
+                    <label>Recordatorio</label>
+                    <span id="cerrarVentana8"><ion-icon name="close-outline"></ion-icon></span>
+                </div>
+                <label>Una vez firmado NO se podran realizar modificaciones</span></label>
+                <div class="contenedorBotonesFirma">
+                    <button class="botonVentanaInfoSistema" id="cerrarVentanaInfoSistemaFirma">Ok</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cuadro de busqueda ------>
+
+        <div>
+            <form id="formBuscar" method="post" class="buscador">
+                <div class="lupa">
+                    <ion-icon name="search-outline"></ion-icon>
+                </div>
+                <select id="tipo">
+                    <option value="nombre">Nombre</option>
+                    <option value="rfc">RFC</option>
+                    <option value="plaza">Plaza</option>
+                    <option value="ctr">CT</option>
+                    <option value="fec_ing">Fecha de Ingreso</option>
+                </select>
+                <input type="text" id="buscar" name="buscar" placeholder="Escribe para buscar">
+                <button type="submit" class="botonBuscar">Buscar</button>
+            </form>
+        </div>
+
+        <div class="cuadrol">
+            <div class="cuadrol-sub">
+                <div class="container-fluid">
+                    <div class="row fw-bold border-bottom pb-2 encabezado">
+                        <div class="col-4 fila">Nombre</div>
+                        <div class="col-2 fila">RFC</div>
+                        <div class="col-3 fila">Plaza</div>
+                        <div class="col-2 fila">CT</div>
+                        <div class="col-1 fila">Fecha Ingreso</div>
+                    </div>
+                    <div id="cuerpoTabla"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cuadro par ventana emergente Firma -->
+        <div class="cuadro_botones_home">
+            <button id="imprimirFormatos" class="botonesHome">Imprimir</button>
+            <button id="abrirVentanaFirma" class="botonesHome">Firmar</button>
+        </div>
+
+        <div> <!-- Cuadro par ventana emergente Firma -->
+            <div id="ventanaFirma" class="modal">
+                <div class="modal-contenido">
+                    <div class="indicadorVentana">
+                        <label>Firma</label>
+                        <span id="cerrarVentana"><ion-icon name="close-outline"></ion-icon></span>
+                    </div>
+                    <label>Firme en el recuadro siguiente:</label>
+                    <canvas id="ejemplo"></canvas>
+                    <div class="contenedorBotonesFirma">
+                        <button id="aceptarVentanaFirma" class="botonVentanaFirma">Aceptar</button>
+                        <button id="cancelarVentanaFirma" class="botonVentanaFirma">Cancelar</button>
+                        <button id="reiniciarVentanaFirma" class="botonVentanaFirma">Reiniciar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Cuadro para ventana emergente por almacenamiento o error al guardar la imagen -->
+        <div id="ventanaInformacionSistema" class="modal">
+            <div class="modal-contenido-infoSistema">
+                <div class="indicadorVentana">
+                    <label>Información del sistema</label>
+                    <span id="cerrarVentana2"><ion-icon name="close-outline"></ion-icon></span>
+                </div>
+                <label><span id="mensajeSistema"></span></label>
+                <div class="contenedorBotonesFirma">
+                    <button class="botonVentanaInfoSistema" id="cerrarVentanaInfoSistema">Ok</button>
+                </div>
+            </div>
+        </div>
+        <!-- Cuadro para ventana emergente para mostrar datos de un maestro -->
+        <div id="ventanaInformacionMaestro" class="modal">
+            <div class="modal-contenido-infoMaestro">
+                <div class="indicadorVentana">
+                    <label>Información del maestro</label>
+                    <span id="cerrarVentanaInfoMaestro"><ion-icon name="close-outline"></ion-icon></span>
+                </div>
+                <label>Nombre: <span id="infoNombre"></span></label>
+                <label>RFC: <span id="infoRFC"></span></label>
+                <label>Plaza: <span id="infoPlaza"></span></label>
+                <label>CT: <span id="infoCT"></span></label>
+                <label>Fecha Ingreso: <span id="infoFecIng"></span></label>
+                <label>Municipio: <span id="infoMun"></span></label>
+                <label>Region: <span id="infoReg"></span></label>
+                <label>Origen: <span id="infoOrigen"></span></label>
+                <label>Sindicato: <span id="infoSindicato"></span></label>
+                <div class="contenedorBotonesFirma">
+                    <button id="borrarMaestro" class="botonRetirar">Retirar de la lista</button>
+                </div>
+            </div>
+        </div>
+        <div id="ventanaConfirmacion" class="modal">
+                <div class="modal-contenido-infoSistema">
+                    <div class="indicadorVentana">
+                        <label>Información del sistema</label>
+                        <span id="cerrarVentana3"><ion-icon name="close-outline"></ion-icon></span>
+                    </div>
+                    <label>En realidad desea retirar al sistema</label>
+                    <div class="contenedorBotonesFirma">
+                        <button class="botonVentanaConfirmacion" id="aceptarRetirar">Aceptar</button>
+                        <button class="botonVentanaConfirmacion" id="cancelarRetirar">Cancelar</button>
+                    </div>
+            </div>
+        </div>
+        <!-- Cuadro para ventana emergente por almacenamiento o error al guardar la imagen -->
+        <div id="ventanaInformacionSistema2" class="modal">
+                <div class="modal-contenido-infoSistema">
+                    <div class="indicadorVentana">
+                        <label>Información del sistema</label>
+                        <span id="cerrarVentana4"><ion-icon name="close-outline"></ion-icon></span>
+                    </div>
+                    <label><span id="mensajeSistema2"></span></label>
+                    <div class="contenedorBotonesFirma">
+                        <button class="botonVentanaInfoSistema" id="cerrarVentanaInfoSistema2">Ok</button>
+                    </div>
+            </div>
+        </div>
+        <!-- Cuadro para ventana emergente para informar que flatan firmas -->
+        <div id="ventanaInformacionSistema3" class="modal">
+                <div class="modal-contenido-infoSistema">
+                    <div class="indicadorVentana">
+                        <label>Información del sistema</label>
+                        <span id="cerrarVentana5"><ion-icon name="close-outline"></ion-icon></span>
+                    </div>
+                    <label><span id="mensajeSistema3"></span></label>
+                    <div class="contenedorBotonesFirma">
+                        <button class="botonVentanaInfoSistema" id="cerrarVentanaInfoSistema3">Cerrar</button>
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>

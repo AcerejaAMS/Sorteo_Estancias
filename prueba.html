@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/estilo_admin.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7/dist/ionicons/ionicons.js"></script>
+        <title>home</title>
+        <script src="JS/verificacion_login.js" defer></script>
+        <script src="JS/logout.js" defer></script>
+        <script src="JS/ventanas.js"></script>
+        <script src="JS/tabla_maestros.js"></script>
+        <script src="JS/historial.js"></script>
+        <script src="JS/buscar.js"></script>
+        <script src="JS/imprimir.js"></script>
+
+    </head>
+    <body>
+        <div class="barra">
+            <div class="informacionSesion">
+                <label>Bienvenido <span id="nombreUsuario"></span></label>
+                <label><span id="Sindicato"></span></label>
+            </div>
+            <p>Listado Maestros</p>
+            <form id="formLogout" class="botonCerrarSesion" method="post">
+                <button type="submit"><ion-icon name="exit-outline"></ion-icon> Cerrar sesión</button>
+            </form>
+        </div>
+        <div class="barra_secundaria">
+            <button id="botonUsr" class="botonBarraSecundaria">Usuarios</button>
+            <button id="botonMts" class="botonBarraSecundaria">Maestros</button>
+            <button id="botonHis" class="botonBarraSecundaria">Historial</button>
+        </div>
+    </body>
+</html>

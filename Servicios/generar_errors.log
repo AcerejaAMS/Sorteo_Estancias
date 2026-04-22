@@ -1,0 +1,4 @@
+[13-Apr-2026 23:32:52 Europe/Berlin] PHP Warning:  Undefined variable $connSource in C:\xampp\htdocs\Sorteo\Servicios\generar_sorteo.php on line 650
+[13-Apr-2026 23:39:02 Europe/Berlin] PHP Warning:  Undefined variable $connSource in C:\xampp\htdocs\Sorteo\Servicios\generar_sorteo.php on line 650
+[13-Apr-2026 23:44:24 Europe/Berlin] PHP Warning:  Undefined variable $connTarget in C:\xampp\htdocs\Sorteo\Servicios\generar_sorteo.php on line 681
+[13-Apr-2026 23:48:30 Europe/Berlin] PHP Warning:  Undefined variable $connTarget in C:\xampp\htdocs\Sorteo\Servicios\generar_sorteo.php on line 751

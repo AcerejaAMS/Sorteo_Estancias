@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/estilo_admin.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7/dist/ionicons/ionicons.js"></script>
+        <title>home</title>
+        <script src="JS/tabla_historial.js"></script>
+        <script src="JS/buscar_historial.js"></script>
+
+    </head>
+    <body>
+        <!-- Cuadro de busqueda -->
+        <div>
+            <form id="formBuscarH" method="post" class="buscador">
+                <div class="lupa">
+                    <ion-icon name="search-outline"></ion-icon>
+                </div>
+                <select id="tipoH">
+                    <option value="nombre">Nombre</option>
+                    <option value="rfc">RFC</option>
+                    <option value="plaza">Plaza</option>
+                </select>
+                <input type="text" id="buscarH" name="buscarH" placeholder="Escribe para buscar">
+                <button type="submit" class="botonBuscar">Buscar</button>
+            </form>
+        </div>
+
+        <div class="cuadrol">
+            <div class="cuadrol-sub">
+                <div class="container-fluid">
+                    <div class="row fw-bold border-bottom pb-2 encabezado">
+                        <div class="col-1 fila">ID</div>
+                        <div class="col-1 fila">Usuario</div>
+                        <div class="col-1 fila">Accion</div>
+                        <div class="col-1 fila">Fecha</div>
+                        <div class="col-2 fila">Nombre</div>
+                        <div class="col-2 fila">RFC</div>
+                        <div class="col-3 fila">Plaza</div>
+                        <div class="col-1 fila">Origen</div>
+                    </div>
+                    <div id="cuerpoTablaHisto"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="ventanaDetalles" class="modal">
+                <div class="modal-contenido-DETALLES">
+                    <div class="indicadorVentana">
+                        <label>Detalles</label>
+                        <span id="cerrarVentana7"><ion-icon name="close-outline"></ion-icon></span>
+                    </div>
+                        <label>Maestro: <span id="maestroNombre"></span></label>
+                    <div class="centrarInfo">
+                        <label><span id="Detalles"></span></label>
+                    </div>
+            </div>
+        </div>
+
+    </body>
+</html>

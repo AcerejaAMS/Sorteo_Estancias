@@ -1,0 +1,358 @@
+
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #641333;
+    padding: 10px 10px;
+    height: 55px;
+}
+
+.informacionSesion {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.barra label{
+    color:white;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra p{
+    color: white;
+    margin: 0;
+    font-size: 18px;
+}
+
+.botonCerrarSesion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+}
+ion-icon{
+    position: relative;
+    top: 2px;
+}
+
+.lupa ion-icon{
+    position: relative;
+    font-size: 24px;
+    top: 2px;
+    color: #3c061b;
+}
+
+.barra form button{
+    background-color: #641333;
+    color:white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.barra form button:hover{
+    color: #641333;
+    background-color: white;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-contenido{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    justify-content:space-between;
+    align-items: center;
+    margin: 15% auto;
+    padding: 0px;
+    width: 400px;
+    height: 300px;
+    
+}
+
+.modal-contenido-infoSistema{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    margin: 15% auto;
+    padding: 0px;
+    width: 350px;
+    height: 150px;
+}
+
+.modal-contenido-infoMaestro{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    justify-content:space-between;
+    align-items: center;
+    margin: 15% auto;
+    padding: 0px;
+    width: 400px;
+    max-width: 500px;
+    height: 350px;
+}
+
+.indicadorVentana {
+    display: flex;
+    background-color: #641333;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.cuadro_botones_home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 20px;
+}
+
+.botonesHome {
+    border-radius: 5px;
+    background-color: #641333; /* color del botón */
+    color: white;
+    border: none;
+    font-size: 16px;
+    width: 120px;
+    height: 30px;
+    gap: 10px;
+}
+
+.botonesHome:hover {
+    background-color: #3c061b;
+}
+
+.botonRetirar{
+    border-radius: 5px;
+    background-color: #641333; /* color del botón */
+    color: white;
+    border: none;
+    font-size: 16px;
+    width: 200px;
+    height: 30px;
+    gap: 10px;
+}
+
+.botonRetirar:hover {
+    background-color: #3c061b;
+}
+
+.botonVentanaConfirmacion{
+    border-radius: 5px;
+    background-color: #641333; /* color del botón */
+    color: white;
+    border: none;
+    font-size: 16px;
+    width: 120px;
+    height: 30px;
+    gap: 10px;
+}
+
+.botonVentanaConfirmacion:hover {
+    background-color: #3c061b; /* color del botón */
+
+}
+
+.indicadorVentana label{
+    color: white;
+    text-align: center;
+}
+
+.indicadorVentana span{
+    position: absolute;
+    color: white;
+    right: 10px;
+}
+
+#cerrarVentana{
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#cerrarVentana2{
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#cerrarVentanaInfoMaestro{
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#cerrarVentana4{
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#cerrarVentana5{
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+canvas {
+    width: 80%;
+    height: 50%;
+    border: 1px solid #641333; 
+}
+
+.contenedorBotonesFirma {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+}
+
+.botonVentanaFirma {
+    font-size: 12px;
+    height: 30px;
+    width: 30%;
+    border-radius: 5px;
+    background-color: #641333; /* color del botón */
+    color: white;              /* color del texto */
+    border: none;   
+}
+
+.botonVentanaFirma:hover {
+    background-color: #3c061b; /* color del botón */
+
+}
+
+.botonVentanaInfoSistema {
+    border-radius: 5px;
+    background-color: #641333; /* color del botón */
+    color: white;
+    border: none;
+    width: 20%;
+    gap: 10px;
+}
+
+
+
+.buscador{
+    display:flex;
+    margin: 20px;
+    justify-content: center;
+    gap:10px;
+}
+
+.cuadrol{
+    width:95%;
+    height: 450px;
+    max-height: 600px;
+    margin: 25px auto;
+    background: white;
+    padding: 0px;
+    border: 1px solid black;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+
+.cuadrol-sub{
+    width:100%;
+}
+
+@media (max-width: 1100px) {
+    .cuadrol-sub{
+        width: 1100px;
+    }
+}
+
+.fila {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.fila > div {
+    flex: 0 0 auto;
+    padding: 8px;
+}
+
+.encabezado{
+    position: sticky;
+    top: 0px;
+    background: #641333;
+    color: white;
+    z-index: 10;
+    align-items: center;
+}
+
+#cuerpoTabla .tuplaTabla:hover {
+    cursor: pointer;
+    background-color: #F5F5F3;
+}
+
+.buscador{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+}
+
+#tipo {
+    cursor: pointer;
+}
+
+.botonBuscar {
+    border-radius: 5px;
+    background-color: #641333; /* color del botón */
+    color: white;
+    border: none;
+    font-size: 16px;
+    width: 80px;
+    height: 30px;
+    gap: 10px;
+}
+
+.botonVentanaInfoSistema:hover {
+    background-color: #3c061b; /* color del botón */
+}
+
+.botonBuscar:hover {
+    background-color: #3c061b;
+}
+
+button:disabled {
+    background-color: #F5F5F3;
+    color: #3c061b;
+    cursor: not-allowed;
+}
+
+button:disabled:hover {
+    background-color: #F5F5F3;
+    color: #3c061b;
+    cursor: not-allowed;
+}

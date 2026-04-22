@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agregar Usuario</title>
+    <link rel="stylesheet" href="CSS/estilo_admin.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7/dist/ionicons/ionicons.js"></script>
+    <script src="JS/tabla_usuarios.js"></script>
+    <script src="JS/crear_usuario.js"></script>
+    <script src="JS/descargar_usuarios.js"></script>
+
+</head>
+
+<body>
+
+    <div class="cuadrol">
+        <div class="cuadrol-sub">
+            <div class="container-fluid">
+                <div class="row fw-bold border-bottom pb-2 encabezado">
+                    <div class="col-1 fila">ID</div>
+                    <div class="col-2 fila">Usuario</div>
+                    <div class="col-2 fila">RFC</div>
+                    <div class="col-2 fila">Contraseña</div>
+                    <div class="col-2 fila">Sindicato</div>
+                    <div class="col-2 fila">Origen</div>
+                    <div class="col-1 fila">Estado Firma</div>
+                </div>
+                <div id="cuerpoTablaUsers"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mostrarFirma" class="modal">
+        <div class="modal-contenido-infoSistema-mf">
+            <div class="indicadorVentana">
+                <label>Información del sistema</label>
+                <span id="cerrarVentanaA1"><ion-icon name="close-outline"></ion-icon></span>
+            </div>
+            <label><span id="mensajeSistemaMF"></span></label>
+            <img id="imagenFirma" src="">
+            <div class="contenedorBotonesFirma">
+                <button class="botonVentanaInfoSistema" id="cerrarVentanaInfoSistemaA1">Ok</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="faltaFirma" class="modal">
+        <div class="modal-contenido-infoSistema">
+            <div class="indicadorVentana">
+                <label>Información del sistema</label>
+                <span id="cerrarVentanaA2"><ion-icon name="close-outline"></ion-icon></span>
+            </div>
+            <label><span id="mensajeSistemaFF"></span></label>
+            <div class="contenedorBotonesFirma">
+                <button class="botonVentanaInfoSistema" id="cerrarVentanaInfoSistemaA2">Ok</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cuadro_botones_home">
+        <button id="abrirModalUsuario" class="botonesAregarUsuario">Agregar Usuario</button>
+        <button id="descargarLista" class="botonesAregarUsuario">Descargar Lista Usuarios</button>
+    </div>
+    
+    <div id="modalAgregarUsuario" class="modal">
+        <div class="modal-contenido-AgregarUsuario">
+            
+            <!-- Encabezado -->
+            <div class="indicadorVentana">
+                <label>Agregar Usuario</label>
+                <span id="cerrarVentanaCU">
+                    <ion-icon name="close-outline"></ion-icon>
+                </span>
+            </div>
+
+            <!-- Formulario -->
+            <form id="formAgregarUsuario" method="post">
+                
+                <div class="row mt-2">
+                    <div class="col-3">
+                        <div class="cuadro_ind">RFC</div>
+                    </div>
+                    <div class="col-9">
+                        <input type="text" id="rfc_u" class="form-control" placeholder="Escribe el RFC">
+                    </div>
+                </div>
+
+                <div class="row mt-2">
+                    <div class="col-3">
+                        <div class="cuadro_ind">Nombre</div>
+                    </div>
+                    <div class="col-9">
+                        <input type="text" id="nombre_u" class="form-control" placeholder="Escribe el Nombre">
+                    </div>
+                </div>
+
+                <div class="row mt-2">
+                    <div class="col-3">
+                        <div class="cuadro_ind">Origen</div>
+                    </div>
+                    <div class="col-9">
+                        <select id="origen_usu" class="form-select">
+                            <option value="uset">USET (31)</option>
+                            <option value="sepe">SEPE (55)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Botón -->
+                <div class="contenedorBotonesFirma">
+                    <button type="submit" class="botonVentanaAgregarUsuario">
+                        Agregar
+                    </button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
